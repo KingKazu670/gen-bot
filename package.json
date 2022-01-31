@@ -1,0 +1,28 @@
+{
+  "name": "accountgenbot",
+  "version": "2.0.0",
+  "description": "A recode of the first version lol",
+  "main": "jewdev.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ph"
+  },
+  "author": "lait",
+  "license": "MIT",
+  "bugs": {
+    "url": "ph"
+  },
+  "homepage": "pornhub.com",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord.js": "^11.6.4",
+    "index.js": "^0.0.3",
+    "node": "^17.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  }
+}

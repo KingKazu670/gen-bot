@@ -1,0 +1,1 @@
+enter list of accounts here, new line = 1 account and accounts get deleted automatically after generated
