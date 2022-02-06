@@ -36,7 +36,7 @@ client.on('warn', () => console.warn);
 client.on('ready', function() {
       setInterval(async () => {
     const statuslist = [
-      `Watching Over The King`
+      `👑 Official Generator For King's Lair 👑`
     ];
     const random = Math.floor(Math.random() * statuslist.length);
 
@@ -68,5 +68,19 @@ client.on('message', async (msg) => {
     let commandFile = require(`./commands/${command}.js`);
     commandFile.run(client, msg, args, config);
 });
+
+require('http').createServer((req, res) => res.end(`
+ |-----------------------------------------|
+ |              Informations               |
+ |-----------------------------------------|
+ |• Alive: 24/7                            |
+ |-----------------------------------------|
+ |• Author: Benz#0217                      |
+ |-----------------------------------------|
+ |• Server: https://discord.gg/XHJVndaRDe  |
+ |-----------------------------------------|
+ |• License: King License 2.0              |
+ |-----------------------------------------|
+`)).listen(3000) //Dont remove this 
 
 client.login(config.TOKEN);
